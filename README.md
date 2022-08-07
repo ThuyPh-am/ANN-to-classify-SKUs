@@ -3,12 +3,18 @@
   This code to build an DNN to classify SKUs in a warehouse into categories, using the multi-dimension classification approach.  
   
   ## Table of contents ##  
-  
+  [Dataset](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#dataset "Goto dataset")  
+  [Inspiration](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#inspiration "Goto inspiration")  
+  [ABC analysis](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#abc-analysis "Goto abc-analysis")  
+  [FMR analysis](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#fmr-analysis "Goto fmr-analysis")  
+  [ABC/FMR analysis](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#abc/fmr-analysis "Goto abc/fmr-analysis")  
+  [Preprocessing data](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#preprocessing-data "Goto preprocessing-data")  
+  [Liscence](https://github.com/ThuyPh-am/DNN-to-classify-SKUs/edit/main/README.md#liscence "Goto liscence")
     
   ## 1. Dataset ##
   This project used the dataset [Historical Sales and Active Inventory](https://www.kaggle.com/datasets/flenderson/sales-analysis "Historical Sales and Active Inventory")  
   
-  ## 2. Inpiration ##  
+  ## 2. Inspiration ##  
   This project used the multi-dimension classification approach, based on the Pareto Law, combining ABC analysis on the values of SKUs and FMR analysis on the demands of SKUs.  
   ### 2.1. ABC analysis ###  
   Using ABC analysis, this project grouped SKUs into categories based on their values and amounts of SKUs inside the warehouse   
