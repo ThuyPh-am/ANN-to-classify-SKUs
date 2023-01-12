@@ -22,9 +22,9 @@
   <!---> <a name = "subheader-1"> </a>
   ### 2.1. ABC analysis ###  
   Using ABC analysis, this project grouped SKUs into categories based on their values and amounts of SKUs inside the warehouse   
-  Group A: highest-values and lowest-amounts SKUs  
+  Group A: highest-values and smallest-amounts SKUs  
   Group B: medium-values and medium-amounts SKUs  
-  Group C: lowest-values and lowest-amounts SKUs  
+  Group C: lowest-values and largest-amounts SKUs  
   
   <!---> <a name = "subheader-2"> </a>
   ### 2.2. FMR analysis ###  
