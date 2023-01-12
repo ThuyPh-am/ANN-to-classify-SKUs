@@ -28,10 +28,10 @@
   
   <!---> <a name = "subheader-2"> </a>
   ### 2.2. FMR analysis ###  
-  Based on the same approach, SKUs were categorized based on their demands
-  Group FF: highly frequently order  
+  Based on the same approach, SKUs were categorized based on their demands  
+  Group FF: highly frequently order    
   Group F: freuqently order  
-  Group M: medium order 
+  Group M: medium order  
   Group R: rarely order  
   
   <!---> <a name = "subheader-3"> </a>
