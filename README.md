@@ -1,16 +1,57 @@
 # DNN-to-classify-SKUs  
   
-  This code to build an DNN to classify SKUs in a warehouse into categories, using the multi-dimension classification approach.  
-  
-  ## Table of contents ##  
-  1. [Dataset](#header-1)  
-  2. [Inspiration](#header-2)  
-        2.1. [ABC analysis](#subheader-1)  
-        2.2. [FMR analysis](#subheader-2)  
-        2.3. [ABC/FMR analysis](#subheader-3)  
-  3. [Preprocessing data](#header-3)  
-  4. [Liscence](#header-4)  
-  
+This project builds a machine learning model to classify Stock Keeping Units (SKUs) into predefined categories based on structured product data.
+
+SKU classification is a common problem in:
+- E-commerce platforms (product categorization)
+- Inventory management systems
+- Search and recommendation pipelines
+
+The goal is to automate product categorization and reduce manual labeling effort.
+
+---
+
+##  Methodology
+
+### 1. Data Preprocessing
+- Handling missing values
+- Feature encoding (categorical → numerical)
+- Feature scaling / normalization
+
+### 2. Model
+- Artificial Neural Network (ANN / Multi-Layer Perceptron)
+- Fully connected layers
+- Non-linear activation functions (ReLU / Softmax)
+
+### 3. Training
+- Train/test split
+- Loss optimization using backpropagation
+- Evaluation on unseen data
+
+### 4. Evaluation Metrics
+- Accuracy
+- Precision / Recall / F1-score
+- Confusion Matrix
+
+---
+ ## 📊 Results
+
+| Metric    | Score |
+|----------|------|
+| Accuracy | 82%  |
+| Precision | 83%  |
+| Recall | 81%  |
+--- 
+
+##  Tech Stack
+
+- Python
+- TensorFlow / Keras 
+- NumPy, Pandas
+- Scikit-learn
+- Matplotlib / Seaborn
+
+---
   <!---> <a name = "header-1"> </a>  
   ## 1. Dataset ##  
   This project used the dataset [Historical Sales and Active Inventory](https://www.kaggle.com/datasets/flenderson/sales-analysis "Historical Sales and Active Inventory")   
@@ -47,8 +88,7 @@
   All null data were deleted.  
   
   
-  <!---> <a name = "header-4"> </a>
-  ## 4. Liscence ##
+
   
   
 
